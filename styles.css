@@ -1,0 +1,11 @@
+*{
+    border: solid 4px black;
+}
+.main{
+    justify-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+#textbocx{
+    height: 10rem;
+}

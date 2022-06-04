@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>JavaScript Excercise</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<fieldset>
+<fieldset class="main">
     <legend>choose rock, paper, or scissors</legend>
     <label><input id="rock" type="radio" name="rock-paper-scissors" value="rock"> rock</label>
-    <label><input id="paper" type="radio" name="rock-paper-scissors" value="paper"> paper</label>
-    <label><input id="scissors" type="radio" name="rock-paper-scissors" value="scissors"> scissors</label>
+    <label><input id="paper" type="radio" name="rock-paper-scissors" value="paper" > paper</label>
+    <label><input id="scissors" type="radio" name="rock-paper-scissors" value="scissors" checked> scissors</label>
 </fieldset>
+<input id="clickme" type="button" value="clickme" onclick="returnvalue()">
+<div id="textbocx"><script>document.writeln('hi')</script></div>
 <script src="script.js"></script>
 </body>
 </html>
